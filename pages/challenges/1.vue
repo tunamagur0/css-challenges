@@ -100,6 +100,7 @@ $border-rad: 2px;
   align-items: center;
   justify-content: center;
   transform: translate(-50%, -50%);
+  box-shadow: 4px 8px 12px 0 rgba(0, 0, 0, 0.1);
 }
 
 $triangle-width: 25px;
