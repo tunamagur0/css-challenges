@@ -20,7 +20,7 @@ import Vue from 'vue';
 export default Vue.extend({
   data() {
     return {
-      solved: [1, 2],
+      solved: [1, 2, 3],
     };
   },
 });
