@@ -1,6 +1,11 @@
 <template>
   <div class="container">
-    <div class="title">100 Days CSS Challenges を解いていく</div>
+    <div class="title">
+      <a href="https://100dayscss.com/" target="_blank"
+        >100 Days CSS Challenge</a
+      >
+      を解いていく
+    </div>
     <div class="list">
       <div class="list-title">作ったもの</div>
       <div class="links">
@@ -42,7 +47,6 @@ $title-size: 40px;
 .title {
   font-size: $title-size;
   color: #35495e;
-  border-bottom: solid 2px rgb(71, 70, 70);
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -71,7 +75,6 @@ $list-title-size: 25px;
   position: relative;
   width: $list-title-size * 2/3;
   height: $list-title-size * 2/3;
-  bottom: 0;
   border-top: $list-title-size/6 solid #b0b0b0;
   border-right: $list-title-size/6 solid #b0b0b0;
   transform: rotate(135deg) translate(-$list-title-size/2, -$list-title-size/4);
